@@ -70,7 +70,7 @@ h1{ text-align:center; font-size:34px; }
 #levelLabel{
   font-size:22px;
   font-weight:bold;
-  color:#5b21b6;
+  color:#20addd;
   margin-bottom:20px;
 }
 
@@ -84,8 +84,8 @@ h1{ text-align:center; font-size:34px; }
 .blank{
   display:inline-block;
   min-width:90px;
-  border-bottom:4px solid #7c3aed;
-  color:#7c3aed;
+  border-bottom:4px solid #445eb2;
+  color:#445eb2;
   font-weight:bold;
 }
 
@@ -104,7 +104,7 @@ h1{ text-align:center; font-size:34px; }
   border:none;
   border-radius:16px;
   cursor:pointer;
-  background:#7c3aed;
+  background:#809376;
   color:white;
   font-weight:bold;
   transition:0.2s;
@@ -112,7 +112,7 @@ h1{ text-align:center; font-size:34px; }
 
 .choiceBtn:hover{
   transform:scale(1.08);
-  background:#5b21b6;
+  background:#4761e3;
 }
 
 .choiceBtn:disabled{
@@ -168,14 +168,14 @@ button{
   border-radius:10px;
   font-size:18px;
   cursor:pointer;
-  background:#7c3aed;
+  background:#495ca6;
   color:white;
   transition:0.2s;
 }
 
 button:hover{
   transform:scale(1.05);
-  background:#5b21b6;
+  background:#3a66c4;
 }
 
 #timer{
