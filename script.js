@@ -177,7 +177,7 @@ function checkAnswer(choice) {
     gameBox.classList.remove("correctFlash", "wrongFlash");
 
     if (lives <= 0) {
-      gameOver("💀 Þú misstir öll lífin!");
+      gameOver("Þú misstir öll lífin!");
       return;
     }
 
@@ -200,7 +200,7 @@ function startTimer() {
 
     if (timer <= 0) {
       clearInterval(timerInterval);
-      gameOver("💀 Tíminn rann út!");
+      gameOver(" Tíminn rann út!");
     }
   }, 1000);
 }
@@ -220,7 +220,7 @@ function winGame() {
 
   const timeUsed = 60 - timer;
   document.getElementById("choices").style.display = "none";
-  document.getElementById("sentence").innerHTML = `<h2>🎉 ÞÚ VANNST!<br><br>Tími: ${timeUsed} sekúndur</h2>`;
+  document.getElementById("sentence").innerHTML = `<h2> ÞÚ VANNST!<br><br>Tími: ${timeUsed} sekúndur</h2>`;
   document.getElementById("feedback").innerText = "Vel gert! Þú kannt muninn á að og af.";
   document.getElementById("explanation").innerText = "";
 
